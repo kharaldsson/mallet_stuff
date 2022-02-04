@@ -2,12 +2,6 @@ import os
 import re
 from collections import Counter
 
-"""
-TO DO:
-* Determine source of discrepancy on prevT=NN and prevT=NNP
-*
-"""
-
 
 def vect_from_raw(sentence_list):
     sentence_clean = [re.sub('\n', '', x) for x in sentence_list]
